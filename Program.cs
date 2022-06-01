@@ -1,4 +1,3 @@
-//lossiana esta en drogas 01
 using Microsoft.AspNetCore.HttpOverrides;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -30,5 +29,5 @@ if (app.Environment.IsProduction())
 app.UseAuthorization();
 
 app.MapControllers();
-//lossiana esta en drogas 02
+
 app.Run();
